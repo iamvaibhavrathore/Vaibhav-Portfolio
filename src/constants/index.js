@@ -24,7 +24,8 @@ import {
   tripguide,
   threejs,
   codingNinjas,
-  kliqueStart
+  kliqueStart,
+  EDC,
 } from "../assets";
 
 export const navLinks = [
@@ -117,30 +118,46 @@ const technologies = [
 ];
 
 const experiences = [
+
+
   {
-    title: "Technical Assistant",
-    company_name: "Coding Ninjas",
-    icon: codingNinjas,
+    title: "Web Developer",
+    company_name: "KliqueStart",
+    icon: kliqueStart,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed a user-friendly website for the organization with essential features.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "KliqueStart",
-    icon: kliqueStart,
+    title: "Technical and Corporate associate",
+    company_name: "Entrepreneurship Development Cell, BV(DU)COEP",
+    icon: EDC,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2022 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Successfully placed 25 students through Startup Internship Placement Program (SIPP) by actively engaging with HR and diverse companies.",
+      "Managed technical logistics for events like SIPP, Skill Tank, and Atmosfair, ensuring seamless execution and optimal participant experience.",
+      "Established a robust network with founders and CEOs, leveraging these connections to invite industry leaders as speakers for our events.",
+      "Played a key role in bridging technical aspects and corporate relations within the Entrepreneurship Development Cell.",
+      "Got Reward and Recognition as a Junior Associate",
+    ],
+  },
+  {
+    title: "Technical Assistant",
+    company_name: "Coding Ninjas",
+    icon: codingNinjas,
+    iconBg: "#383E56",
+    date: "Dec 2021 - April 2022",
+    points: [
+      "Provides valuable guidance to students, helping them navigate through coding challenges and programming concepts.",
+      "Plays a crucial role in resolving coding issues ins C++/DSA and debugging errors, ensuring students understand the intricacies of their code.",
+      "Clarifies 350+ doubts and answers queries around fostering a better understanding of coding principles among learners.",
+      "Helps bridge the gap between theoretical knowledge and real-world application, making coding concepts more practical for students.",
     ],
   },
 
@@ -227,9 +244,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Vabthor RCE",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows to Complie HTML CSS and JavaScript language online, integrated funcationlity with save and share code to others ",
     tags: [
       {
         name: "react",
@@ -240,45 +257,49 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/iamvaibhavrathore/Vab_dev_IDE",
   },
   {
-    name: "Job IT",
+    name: "Dev Detective",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Dev detective project search github profile by your username. UI is developed to change into dark and light mode and we can get the some public profile info like number of repository, followers, following and social media handles.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://dev-detectice-web-app.vercel.app/",
+  },
+  {
+    name: "N Queen Algorithm Visualization",
+    description:
+      "The N Queen algorithm visualizes placing N queens on an NxN chessboard so that no two queens threaten each other. It uses backtracking to explore all possible solutions.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
@@ -287,7 +308,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://visualize-n-queen-algorithm.vercel.app/",
   },
 ];
 
