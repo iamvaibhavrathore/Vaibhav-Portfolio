@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
-
+import Typewriter from "./typewriter";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
-import ResumeButton from "./ResumeButton";
+// import { ComputersCanvas } from "./canvas";
+// import ResumeButton from "./ResumeButton";
 
 const Hero = () => {
+
+  const words = ['Web Developer','AI ML Engineer', 'Backend Developer','Software Engineer'];
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -20,13 +23,13 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Vaibhav</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A logic based creator, I develop user <br className='sm:block hidden' />
-            interfaces and web applications
+            A logic based creator, <span className="text-[#915EFF]"><Typewriter words={words}/></span> <br />
+            I develop user interfaces and <br /> web applications.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
