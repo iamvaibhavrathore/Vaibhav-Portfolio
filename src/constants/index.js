@@ -26,6 +26,11 @@ import {
   codingNinjas,
   kliqueStart,
   EDC,
+  vabthorRce,
+  devDetective,
+  nQueen,
+  studyNotion,
+  chatterBox,
 } from "../assets";
 
 export const navLinks = [
@@ -265,7 +270,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: vabthorRce,
     source_code_link: "https://github.com/iamvaibhavrathore/Vab_dev_IDE",
   },
   {
@@ -286,8 +291,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://dev-detectice-web-app.vercel.app/",
+    image: devDetective,
+    source_code_link: "https://github.com/iamvaibhavrathore/dev-detective-project",
   },
   {
     name: "N Queen Algorithm Visualization",
@@ -307,8 +312,58 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://visualize-n-queen-algorithm.vercel.app/",
+    image: nQueen,
+    source_code_link: "https://github.com/iamvaibhavrathore/N-Queen_Algorithm_Visualization",
+  },
+  {
+    name: "Study Notion",
+    description:
+      "A full stack ed-tech website developed using MERN stack. Maintained industry standard and with 3 moderator role (Admin, Student and Instructor).",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: studyNotion,
+    source_code_link: "https://github.com/iamvaibhavrathore/study-notion",
+  },
+  {
+    name: "Chat App",
+    description:
+      "Chat App allow user to chat in a realtime with no lag. Also added video and image sharing feature. The web app developed using MERN stack and socket.io",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chatterBox,
+    source_code_link: "https://github.com/iamvaibhavrathore/ChattarBox",
   },
 ];
 

@@ -65,7 +65,7 @@ const Navbar = () => {
           <li
             onClick={() => {
               window.location.href =
-                "https://drive.google.com/file/d/1Z83-ZlOx7H0oIp9bWLbaV5mhv1Tr1iMo/view?usp=sharing";
+                "https://drive.google.com/file/d/1wY5facEuVpcV0P99TucN_ws_irAyVzBL/view?usp=sharing";
             }}
             className=" text-secondary
              hover:text-white text-[18px] font-medium cursor-pointer"
@@ -105,7 +105,7 @@ const Navbar = () => {
               <li
                 onClick={() => {
                   window.location.href =
-                    "https://drive.google.com/file/d/1Z83-ZlOx7H0oIp9bWLbaV5mhv1Tr1iMo/view?usp=sharing";
+                    "https://drive.google.com/file/d/1wY5facEuVpcV0P99TucN_ws_irAyVzBL/view?usp=sharing";
                 }}
                 className=" text-secondary
              hover:text-white text-[18px] font-medium cursor-pointer"

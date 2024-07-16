@@ -25,13 +25,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import codingNinjas from "./company/codingNinjas.png"
-import kliqueStart from "./company/kliqueStart.png"
-import EDC from "./company/EDC.png"
+import codingNinjas from "./company/codingNinjas.png";
+import kliqueStart from "./company/kliqueStart.png";
+import EDC from "./company/EDC.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import vabthorRce from "./vabthorRce.png";
+import studyNotion from "./studyNotion.png";
+import nQueen from "./nQueen.png";
+import devDetective from "./devDetective.png";
+import chatterBox from "./chatterBox.png";
 
 export {
   logo,
@@ -65,4 +70,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  vabthorRce,
+  studyNotion,
+  nQueen,
+  devDetective,
+  chatterBox
 };
