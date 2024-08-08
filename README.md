@@ -54,7 +54,7 @@ To run this project locally, follow these steps:
 
 ## 📧 Contact
 
-Feel free to reach out to me via the contact form on the portfolio or directly through my email: [your-email@example.com](mailto:iamvaibhavrathore@gmail.com).
+Feel free to reach out to me via the contact form on the portfolio or directly through my email: [iamvaibhavrathore@gmail.com](mailto:iamvaibhavrathore@gmail.com).
 
 ## 🌟 Contributing
 
