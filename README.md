@@ -1,9 +1,11 @@
 
-![Uploading Screenshot 2024-08-09 at 12.32.52 AM.png…]()
+
 
 Here's a sample README file for your portfolio project:
 
 ---
+
+![Uploading Screenshot 2024-08-09 at 12.32.52 AM.png…]()
 
 # Personal Portfolio
 
