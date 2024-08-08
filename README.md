@@ -1,7 +1,8 @@
-Live Link - https://vaibhav-portfolio-pi.vercel.app/
+![Screenshot 2024-08-09 at 12-compressed](https://github.com/user-attachments/assets/5c293412-8b09-4b4f-ad04-233e3d9f18c7)
 
 ---
 
+Live Link - https://vaibhav-portfolio-pi.vercel.app/
 
 
 # Personal Portfolio
