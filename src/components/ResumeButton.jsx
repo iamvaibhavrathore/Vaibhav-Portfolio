@@ -3,7 +3,7 @@ import { SectionWrapper } from '../hoc';
 
 const ResumeButton = () => {
   const handleDownload = () => {
-    window.location.href = 'https://drive.google.com/file/d/1Z83-ZlOx7H0oIp9bWLbaV5mhv1Tr1iMo/view?usp=drive_link';
+    window.location.href = 'https://drive.google.com/file/d/1EXS4PEB3GgE8MZgPGNm0sJZ1CdSYt9tB/view?usp=drive_link';
   };
 
   return (
